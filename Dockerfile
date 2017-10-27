@@ -1,4 +1,6 @@
-FROM python:3.5.1-alpine
+FROM python:3.6.3-alpine
+
+RUN apk add --no-cache build-base libffi-dev
 
 EXPOSE 8000
 
